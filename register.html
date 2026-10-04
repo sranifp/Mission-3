@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chill - Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="auth-wrapper">
+        <div class="auth-container">
+            <div class="logo-container">
+                <div class="clapperboard">
+                    <div class="clapper-top">
+                        <svg viewBox="0 0 100 40" fill="white">
+                            <path
+                                d="M0,30 L15,10 L30,10 L15,30 L35,30 L50,10 L65,10 L50,30 L70,30 L85,10 L100,10 L85,30 Z"
+                                opacity="0.2" />
+                            <rect x="0" y="25" width="100" height="15" rx="3" />
+                        </svg>
+                    </div>
+                    <div class="clapper-bottom">
+                        <svg viewBox="0 0 100 60" fill="white">
+                            <rect x="0" y="0" width="100" height="55" rx="5" />
+                            <circle cx="50" cy="30" r="8" fill="#0b0c10" />
+                        </svg>
+                    </div>
+                </div>
+                <span class="logo-text">CHILL</span>
+            </div>
+
+            <form class="auth-form" action="login.html" method="GET">
+                <div class="form-group">
+                    <label for="reg-username">Username</label>
+                    <input type="text" id="reg-username" placeholder="Buat username" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="reg-password">Kata Sandi</label>
+                    <input type="password" id="reg-password" placeholder="Buat kata sandi" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="confirm-password">Konfirmasi Kata Sandi</label>
+                    <input type="password" id="confirm-password" placeholder="Ulangi kata sandi" required>
+                </div>
+
+                <button type="submit" class="btn-primary">Daftar</button>
+
+                <button type="button" class="btn-google">
+                    <img src="img/google.jpg" alt="Google" width="18">
+                    Daftar dengan Google
+                </button>
+            </form>
+
+            <div class="auth-links">
+                <p>Sudah punya akun? <a href="login.html">Masuk</a></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
